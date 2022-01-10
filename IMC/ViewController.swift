@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var tf_altura: UITextField!
     @IBOutlet weak var lb_resultado: UILabel!
     @IBOutlet weak var im_resultado: UIImageView!
+    @IBOutlet weak var vi_esultado: UIView!
     
     var imc: Double = 0
     
@@ -39,6 +40,25 @@ class ViewController: UIViewController {
     func showResolts(){
         var resolt: String = ""
         var image: String = ""
+        switch imc {
+            case 0..<16:
+                resolt = "Magreza"
+                image = "abaixo"
+            case 16..<18.5:
+                resolt = "Abaixo do peso"
+                image = "abaixo"
+            case 18.5..<25:
+                resolt = "Peso ideal"
+                image = "ideal"
+            case 25..<30:
+                resolt = "Sobrepeso"
+                image = "sobre"
+            default:
+                resolt = "Obesidade"
+                image = "obesidade"
+        }
+        lb_resultado.text = resolt
+        im_resultado.image = UIImage(named: image)
         
     }
 }

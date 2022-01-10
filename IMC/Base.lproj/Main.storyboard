@@ -140,6 +140,7 @@
                         <outlet property="lb_resultado" destination="uvR-cz-T60" id="0Cd-mL-hcP"/>
                         <outlet property="tf_altura" destination="9UV-gG-s7R" id="5gP-ER-nIg"/>
                         <outlet property="tf_peso" destination="6JT-bC-11L" id="HSc-R1-uRq"/>
+                        <outlet property="vi_esultado" destination="SRG-mc-TyK" id="dla-Vn-Cha"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
