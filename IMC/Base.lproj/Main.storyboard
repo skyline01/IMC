@@ -136,7 +136,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="im_resultado" destination="Osp-y1-PNB" id="Uow-4Q-Euo"/>
+                        <outlet property="im_resultado" destination="Osp-y1-PNB" id="2z5-io-Mtk"/>
                         <outlet property="lb_resultado" destination="uvR-cz-T60" id="0Cd-mL-hcP"/>
                         <outlet property="tf_altura" destination="9UV-gG-s7R" id="5gP-ER-nIg"/>
                         <outlet property="tf_peso" destination="6JT-bC-11L" id="HSc-R1-uRq"/>
@@ -145,7 +145,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="36" y="31.934032983508249"/>
+            <point key="canvasLocation" x="-234" y="-36"/>
         </scene>
     </scenes>
 </document>

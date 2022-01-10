@@ -15,7 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var lb_resultado: UILabel!
     @IBOutlet weak var im_resultado: UIImageView!
     @IBOutlet weak var vi_esultado: UIView!
-    
+        
     var imc: Double = 0
     
     
