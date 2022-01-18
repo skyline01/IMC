@@ -14,8 +14,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var tf_altura: UITextField!
     @IBOutlet weak var lb_resultado: UILabel!
     @IBOutlet weak var im_resultado: UIImageView!
-    @IBOutlet weak var vi_esultado: UIView!
-        
+    @IBOutlet weak var vi_resultado: UIView!
+    
     var imc: Double = 0
     
     
@@ -59,7 +59,7 @@ class ViewController: UIViewController {
         }
         lb_resultado.text = resolt
         im_resultado.image = UIImage(named: image)
-        
+        vi_resultado.isHidden = false
     }
 }
 

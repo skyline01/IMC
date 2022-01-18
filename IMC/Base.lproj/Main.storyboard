@@ -67,7 +67,7 @@
                                     <action selector="calcular:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cDB-pM-0Cw"/>
                                 </connections>
                             </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SRG-mc-TyK">
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SRG-mc-TyK">
                                 <rect key="frame" x="0.0" y="288" width="375" height="379"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Seu indice de massa corporal e" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="341-et-Reg">
@@ -141,6 +141,7 @@
                         <outlet property="tf_altura" destination="9UV-gG-s7R" id="5gP-ER-nIg"/>
                         <outlet property="tf_peso" destination="6JT-bC-11L" id="HSc-R1-uRq"/>
                         <outlet property="vi_esultado" destination="SRG-mc-TyK" id="dla-Vn-Cha"/>
+                        <outlet property="vi_resultado" destination="SRG-mc-TyK" id="Dff-U5-Wtt"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
