@@ -28,6 +28,9 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        view.endEditing(true)
+    }
 
     @IBAction func calcular(_ sender: Any) {
         if let weight = Double(tf_peso.text!), let height = Double(tf_altura.text!) {
@@ -60,6 +63,8 @@ class ViewController: UIViewController {
         lb_resultado.text = resolt
         im_resultado.image = UIImage(named: image)
         vi_resultado.isHidden = false
+        view.endEditing(true)
+        
     }
 }
 
